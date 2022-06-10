@@ -13,20 +13,18 @@
 <body>
     <div class="container">
         <form action="" class="Form">
-            <i class="fa-solid fa-clipboard-list"></i>
+            <div class="tasksNumber">
+                <i class="fa-solid fa-clipboard-list"></i>
+                <span>1</span>
+            </div>
             <input type="text" name="" id="" placeholder="What needs to be done?">
             <button class="AddButton"><i class="fa-solid fa-plus"></i></button>
         </form>
-        <h1 class="task-number">
-            <span>Vous avez 0 taches</span>
-        </h1>
 
-        <section class="tasks">
-            <div class="tasks-List">
-                <div class="task"></div>
-                <button class="task__done">Done</button>
-                <button class="task__delete">Delete</button>
-            </div>
+        <section class="tasks-List">
+            <div class="task"><p> Premier taches a faire</p></div>
+            <button class="task__done task-padding"><i class="fa-solid fa-check"></i></button>
+            <button class="task__delete task-padding"><i class="fa-solid fa-trash-can"></i></button>
         </section>
     </div>
 
