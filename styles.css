@@ -118,7 +118,7 @@ input {
     width: 100%;
     padding: 0.8rem 1rem;
     font-weight: 600;
-    font-size: 1rem;
+    font-size: 1.5rem;
     border: #76818E 2px solid;
     display: flex;
     align-items: center;
@@ -153,10 +153,18 @@ input {
     cursor: pointer;
 }
 
+.ckecked {
+    background-color: #629161;
+    color: #67b166;
+    text-decoration: line-through;
+}
+
 .task__done {
     background-image: var(--buttonAdd-bg-color);
+    cursor: pointer;
 }
-.fa-trash-can , .fa-check{
+
+.fa-trash-can, .fa-check {
     pointer-events: none;
 }
 
